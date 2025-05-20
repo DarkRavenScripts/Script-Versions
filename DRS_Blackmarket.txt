@@ -1,1 +1,5 @@
 1.0.1
+
+- Updated Version check 1
+
+https://portal.cfx.re/assets/granted-assets
