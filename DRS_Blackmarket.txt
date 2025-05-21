@@ -1,5 +1,7 @@
-1.0.1
+1.0.3
 
-- Updated Version check 1
+- Added new update checker
+- Added changelog file
+- Reorganized files
 
 https://portal.cfx.re/assets/granted-assets
