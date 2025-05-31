@@ -1,3 +1,5 @@
-1.0.0
+1.0.1
+\r\n
+- Takes items and gives money\r\n
 \r\n
 https://portal.cfx.re/assets/granted-assets
