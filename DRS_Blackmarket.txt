@@ -1,7 +1,7 @@
-1.0.3
-
-- Added new update checker
-- Added changelog file
-- Reorganized files
-
+1.0.3 
+ 
+- Added new update checker 
+- Added changelog file 
+- Reorganized files 
+ 
 https://portal.cfx.re/assets/granted-assets
