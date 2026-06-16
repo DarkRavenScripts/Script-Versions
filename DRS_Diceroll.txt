@@ -1,6 +1,2 @@
-1.0.1 
- 
-- Added Update Checker 
-- Added Changelog File 
- 
-https://portal.cfx.re/assets/granted-assets
+2.0.0 
+
