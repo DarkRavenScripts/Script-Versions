@@ -1,6 +1,18 @@
-1.0.3 
+2.0.0 
  
-- Added Update Checker 
-- Added Changelog File 
- 
-https://portal.cfx.re/assets/granted-assets
+- Fixed: player name now correctly included in Discord removal notifications
+- Fixed: replaced check-then-insert with INSERT IGNORE to eliminate race condition on add
+- Fixed: Discord webhook failures now logged instead of silently dropped; empty webhook URL is validated
+- Fixed: nil-safe result checks on all database callbacks (playerConnecting, playerDropped)
+- Fixed: Discord ID validation tightened to 17-20 digit numeric strings
+- Added: /listtracked [page] command — paginated list of all tracked users
+- Added: /searchtracked [name|id] command — search tracked users by name or Discord ID
+- Added: join_count — incremented each time a tracked user connects
+- Added: last_seen — updated to current UTC timestamp on each connection
+- Added: expires_at / Config.AutoExpireDays — auto-remove tracked users after N days
+- Added: Config.RateLimitSeconds — rate limits per-admin to prevent command spam
+- Added: Config.AllowConsoleCommands — optionally allow commands from the server console
+- Added: server-side console logging for all watchlist actions (audit trail)
+- Added: input sanitization on all Discord embed fields (prevents JSON injection)
+- Changed: Discord embed timestamps now use UTC
+- Changed: Discord embed colors extracted to named constants
